@@ -10,7 +10,7 @@ public class ContaTerminal {
 		String cliente = entrada.next();
 		
 		System.out.println("Por favor, informe o número da conta.");
-		int conta = entrada.nextInt();
+		double conta = entrada.nextDouble();
 		
 		System.out.println("Por favor, informe o número da agência.");
 		String agencia = entrada.next();
